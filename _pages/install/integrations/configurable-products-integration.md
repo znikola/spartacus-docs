@@ -12,8 +12,6 @@ feature:
 
 {% include docs/feature_version.html content=version_note %}
 
-## Overview
-
 The Configurable Products integration provides a user interface for configuring and selling configurable products in Spartacus. The integration makes use of the *Product Configuration with SAP Variant Configuration and Pricing* AddOn, which is part of SAP Commerce Cloud. This AddOn is not included in the Spartacus libraries.
 
 The Spartacus product configuration library includes the following features:
@@ -27,6 +25,15 @@ The Spartacus product configuration library includes the following features:
 With this integration, configurable products become a part of the storefront's standard processes, such as catalog browsing, viewing product details pages, adding items to the cart, checking out, and viewing order history pages.
 
 For more information, see [Product Configuration with SAP Variant Configuration and Pricing](https://help.sap.com/viewer/80c3212d1d4646c5b91db43b84e9db47/latest/en-US/528b7395bc314999a01e3560f2bdc069.html) on the SAP Help Portal.
+
+***
+
+**Table of Contents**
+
+- This will become a table of contents (this text will be scrapped).
+{:toc}
+
+***
 
 ## Requirements
 
@@ -102,6 +109,7 @@ The following features are currently not supported in the Configurable Products 
 - [Save for Later and Selective Cart](#save-for-later-and-selective-cart)
 - [Cart Validation](#cart-validation)
 - [Assisted Service Mode](#assisted-service-mode)
+- [Saved Cart](#saved-cart)
 
 ### Save for Later and Selective Cart
 
@@ -205,4 +213,8 @@ Note that it will guarantee that the order is validated for product configuratio
 
 ### Assisted Service Mode
 
-Assisted service mode (ASM) is currently not supported with the configurable products integration.
+Assisted service mode (ASM) is currently not supported with the Configurable Products integration.
+
+### Saved Cart
+
+The saved cart feature is currently not supported with the Configurable Products integration.

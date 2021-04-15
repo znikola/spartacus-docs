@@ -6,23 +6,14 @@ title: Release Information for All Versions of Spartacus Libraries
 
 *Last updated February 25, 2021 by Bill Marcotte, Senior Product Manager, Spartacus*
 
-Contents:
+***
 
-- [Introduction](#introduction)
-- [Release 3.1](#release-31)
-- [Release 3.0](#release-30)
-- [Release 2.1](#release-21)
-- [Release 2.0](#release-20)
-- [Release 1.5](#release-15)
-- [Release 1.4](#release-14)
-- [Release 1.3](#release-13)
-- [Release 1.2](#release-12)
-- [Release 1.1](#release-11)
-- [Release 1.0](#release-10)
-- [About Spartacus Releases](#about-spartacus-releases)
-- [How Spartacus is Versioned](#how-spartacus-is-versioned)
-- [Upgrading Spartacus Libraries to a New Minor Version](#upgrading-spartacus-libraries-to-a-new-minor-version)
-- [Future Releases](#future-releases)
+**Table of Contents**
+
+- This will become a table of contents (this text will be scrapped).
+{:toc}
+
+***
 
 ## Introduction
 
@@ -79,7 +70,7 @@ We're happy to also announce support for the Qualtrics Embedded Feedback feature
 
 ### New Events
 
-Events now triggered when a customer logs in or logs out. For more information, see [Event Service]({{ site.baseurl }}{% link _pages/dev/event-service.md %}).
+Events now triggered when a customer logs in or logs out. For more information, see [Event Service]({{ site.baseurl }}{% link _pages/dev/features/event-service.md %}).
 
 ### Performance Improvements with Code Splitting / Lazy Loading
 
@@ -133,7 +124,7 @@ The following is a summary of the major changes introduced in 2.0:
 - [Schematics updated]({{ site.baseurl }}{% link _pages/install/schematics.md %})
 - [Accessibility Keyboarding features]({{ site.baseurl }}{% link _pages/dev/accessibility/keyboard-focus/keyboard-focus.md %})
 - [Lazy loading of CMS components]({{ site.baseurl }}/customizing-cms-components/#lazy-loaded-cms-components-code-splitting)
-- [Event Service]({{ site.baseurl }}{% link _pages/dev/event-service.md %}), with Add to Cart event
+- [Event Service]({{ site.baseurl }}{% link _pages/dev/features/event-service.md %}), with Add to Cart event
 - [State Persistence]({{ site.baseurl }}{% link _pages/dev/state_management/state-persistence.md %})
 - [Custom Angular URL Matching]({{ site.baseurl }}/adding-and-customizing-routes/#avoiding-static-url-segments-in-the-product-page-url-advanced)
 - Many components refactored
@@ -245,9 +236,9 @@ Powertools sample data modified to work with Spartacus (requires latest spartacu
 What's new?
 
 - [Store Locator]({{ site.baseurl }}{% link _pages/dev/features/store-locator.md %})
-- [Guest Checkout]({{ site.baseurl }}{% link _pages/dev/guest-checkout.md %})
-- [Express Checkout]({{ site.baseurl }}{% link _pages/dev/express-checkout.md %})
-- [Infinite Scroll]({{ site.baseurl }}{% link _pages/dev/view_configuration/infinite-scroll.md %})
+- [Guest Checkout]({{ site.baseurl }}{% link _pages/dev/features/guest-checkout.md %})
+- [Express Checkout]({{ site.baseurl }}{% link _pages/dev/features/express-checkout.md %})
+- [Infinite Scroll]({{ site.baseurl }}{% link _pages/dev/features/infinite-scroll.md %})
 - Routing Migration
 - [Early Login]({{ site.baseurl }}{% link _pages/dev/routes/early-login.md %})
 - [Consignment Tracking]({{ site.baseurl }}{% link _pages/dev/features/consignment-tracking.md %})
